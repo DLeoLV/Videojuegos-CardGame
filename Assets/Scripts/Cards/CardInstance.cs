@@ -41,8 +41,10 @@ public class CardInstance : MonoBehaviour
             soData.retreatCost,
             soData.health
             );
-            backgroundImage.sprite = cardSO.cardImage;
-            backgroundImage.enabled = true;
+
+
+            //backgroundImage.sprite = cardSO.cardImage;
+            //backgroundImage.enabled = true;
             UpdateCardUI();
         }
     }
